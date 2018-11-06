@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bej">
+
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="420dp"
+       android:background="@drawable/frameshape"
+       android:shadowColor="#A8A8A8"
+       android:shadowDx="0"
+       android:shadowDy="0"
+       android:shadowRadius="5"
+       android:textColor="#FFFFFF"
+       >
+
+       <ListView
+           android:id="@android:id/list"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentTop="true"
+           android:textColor="#FFFFFF"
+           android:headerDividersEnabled="true">
+
+       </ListView>
+
+
+   </FrameLayout>
+
+
+    <Button
+        android:id="@+id/invio"
+
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Contatta pizzeria"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+
+    <Button
+        android:id="@+id/Prevew"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="63dp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:background="@drawable/buttonshape"
+        android:text="Pagamento" />
+
+
+    <Button
+        android:id="@+id/Bibite"
+        android:layout_width="147dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Bibite"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/Prezzo"
+        android:layout_width="202dp"
+        android:layout_height="133dp"
+        android:layout_alignTop="@+id/invio"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="22dp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Importo totale"
+        android:background="@drawable/buttonshape"
+        android:gravity="center"
+        />
+
+
+</android.widget.RelativeLayout>
