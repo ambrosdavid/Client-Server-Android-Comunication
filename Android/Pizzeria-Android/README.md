@@ -25,7 +25,7 @@ Il client android ha il compito di interfacciare l'utente con la lista delle piz
 Una volta effettuata la connessione, il server risponde inviando la lista delle pizze ordinabili ed i loro prezzi, popolando di conseguenza l'interfaccia grafica che permette la creazione dell'ordine.
 
 
-![Statechart Client](https://gitlab.com/zuccante5IC/consegna181027/raw/Ambros/Pizzeria-Android/Client.PNG "Statechart Client")
+![Statechart Client](Client.PNG "Statechart Client")
 ---
 
 ## Images
